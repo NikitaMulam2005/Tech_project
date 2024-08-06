@@ -1,0 +1,662 @@
+/* solution */
+
+.sol {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+
+}
+
+.sol_box {
+    background-color: hsl(0, 0%, 98%);
+    text-align: center;
+    height: 350px;
+    place-content: center;
+    border-radius: 20px;
+}
+
+.btn_sol {
+    padding: 0.5rem;
+    font-size: 15px;
+    background-color: white;
+    border: 1.3px solid black;
+    border-radius: 10px;
+}
+
+.btn_sol:hover {
+    background-color: #A57A5A;
+    color: white;
+}
+
+.text_in {
+    font-size: 30px;
+}
+
+.text_in:hover {
+    color: #A57A5A;
+    
+}
+
+.text_out {
+    margin: 0.3rem;
+    color: gray;
+}
+
+
+/* agent details */
+
+.agent_details {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+
+}
+
+.agent_1 {
+    width: 15rem;
+    height: 250px;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    place-content: center;
+    border-radius: 15px;
+    animation: scroll 15s linear infinite;
+    transform: all 0.5s ease-in;
+}
+
+.icons_agent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+}
+
+agent {
+    width: 100%;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* dream  home */
+
+.dream-home {
+    background-color: #fafafa;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+.dream-head {
+    padding: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dream-subhead {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+}
+
+.dream-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+    position: relative;
+    padding: 0 1rem 0 1rem;
+}
+
+.dream-img img {
+    border-radius: 10px;
+    width: 320px;
+    height: 200px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.dream-img img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Blog */
+
+.blog {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    border-radius: 15px;
+}
+
+.estate_blog {
+    background-color: #fafafa;
+    padding: 1rem;
+}
+
+.estate_box {
+    display: flex;
+    gap: 1rem;
+}
+
+.blog img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-decoration: none;
+    transition: 150ms all;
+    object-fit:cover;
+    object-position:center;
+}
+
+.blog img:hover {
+    transform: scale(0.95);
+}
+
+.estate_text {
+    font-size: 20px;
+}
+
+.estate_div {
+    border-radius: 15px;
+}
+
+/* Top Rated */
+
+.bed-icon-img,
+.bath-icon-img,
+.vector-img {
+    width:350px;
+     height:250px;
+}
+
+.park-view-feat,
+.ocean-villa-feat,
+.forest-homes-feat {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Our-top-rated-container {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.top-rated--sale {
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.top-rated-head {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.top-rated-sub-head {
+    font-size: 12x;
+    text-align: center;
+}
+
+.park-view-head,
+.oceaan-villa-head,
+.forest-homes-head {
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-block: 10px;
+}
+
+.park-view-house-img,
+.ocean-villa-img,
+.forest-heights-img {
+    border-radius: 15px;
+
+}
+
+
+.park-view-add,
+.ocean-villa-add,
+.forest-homes-add {
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.park-view-button,
+.ocean-villa-button,
+.forest-homes-button {
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* success stories */
+
+.testimonial {
+    padding: 2rem 2rem;
+    background-color: #fafafa;
+}
+
+.testimonial-body {
+    display: flex;
+    justify-content: space-around;
+    place-content: center;
+    gap: 2rem;
+}
+
+.testimonial-head {
+    font-size:30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.testimonial-subhead {
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+}
+
+.quote-img {
+    border-radius: 30px 0 0 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.profile-pic {
+    margin: 0 auto;
+    position: relative;
+    bottom: 3rem;
+}
+
+.testimonial-client-1,
+.testimonial-client-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.name {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.profile-pic-2 {
+    margin: 0 auto;
+    position: relative;
+    bottom: 3rem;
+}
+
+.profile-pic-3 {
+    margin: 0 auto;
+    position: relative;
+    bottom: 3rem;
+}
+
+.testimonial-client-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px 20px 30px 40px;
+}
+
+/* property */
+
+.prop{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:2rem;
+    padding:3rem;
+}
+
+/* features */
+
+.features {
+  overflow: hidden;
+  margin: 80px auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.feature_header_title {
+  text-align: center;
+  margin: auto;
+  font-family: "Noto Sans";
+  color: #2c2c2c;
+}
+
+.feature_header_des {
+  text-align: center;
+  margin: auto;
+  font-family: "Noto Sans";
+  color: #656060bc;
+}
+
+.featuresWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 1.5s ease-in-out;
+  width: 500vw;
+  overflow-x: hidden;
+}
+
+.features_item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.featureImg {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.rate {
+  position: absolute;
+  top: 47%;
+  left: 4%;
+  z-index: 1;
+  color: black;
+  border: 2px solid #fff;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+  font-family: "Noto Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.feature_title {
+  font-family: "Noto Sans";
+  line-height: 2;
+  color: #2c2c2c;
+  font-size: 17px;
+}
+
+.feature_para {
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #514d4df0;
+  font-size: 15px;
+}
+
+.house-features {
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.house-features span {
+  font-family: "Noto Sans";
+  font-size: 1em;
+}
+
+.hf_icon {
+  margin-left: 20px;
+}
+
+.fa-bed,
+.fa-bath,
+.fa-uncharted {
+  margin-right: 5px;
+}
+
+.feature_btn {
+  border: 1px solid rgba(57, 55, 55, 0.865);
+  width: 90px;
+  padding: 7px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fafafa;
+  font-family: "Noto Sans";
+  font-weight: 800;
+}
+
+.feature_btn:hover {
+  border: 1px solid #a57a5a;
+  background: #a57a5a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.f_slider_btn_container {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature_slider_btn {
+  border-radius: 100%;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  background: rgb(214, 210, 210);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.feature_slider_btn:hover {
+  background: #a57a5a;
+}
+
+@media (max-width: 850px) {
+  .navbar {
+    margin: 0;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .nav_content {
+    padding-top: 70px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 35%;
+    min-height: 100vh;
+    background: #a57a5a;
+    text-align: center;
+    z-index: 100;
+    display: none;
+  }
+
+  .checkbtn {
+    display: block;
+    width:15px;
+    height:10px;
+    filter: invert(1);
+    z-index: 200;
+    float: right;
+  }
+
+  .nav_content li {
+    padding: 20px;
+  }
+
+  .nav_content li {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  .nav_content li:hover {
+    color: white;
+  }
+}
+
+@media (max-width: 590px) {
+  .hero_text_inside {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 590px) {
+}
+
+@media (max-width: 480px) {
+  .nav_content {
+    width: 40%;
+  }
+
+  .hero_text_inside {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 390px) {
+  .nav_content {
+    width: 40%;
+  }
+}
+
+@media (max-width: 610px) {
+  .featuresWrapper {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .f_slider_btn_container {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .feature_header_title {
+    font-size: 30px;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .feature_header_des {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer_content {
+    margin: 20px 40px 20px 40px;
+  }
+
+  .footer_left_content h4 {
+    font-size: 25px;
+  }
+
+  .footer_right_content h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer_content {
+    margin: 10px 30px 0 30px;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer_left_content h4 {
+    font-size: 25px;
+  }
+
+  .footer_right_content h3 {
+    font-size: 25px;
+  }
+
+  .timing {
+    padding-top: 10px;
+  }
+
+  .social_media {
+    padding-top: 10px;
+  }
+
+  .subscribe_container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+
+  .subscribe {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .footer_main {
+    height: 600px;
+  }
+
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-linkedin-in,
+  .fa-twitter {
+    font-weight: 200px;
+  }
+
+  input[type="email"] {
+    width: 20%;
+    font-size: 10px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 1747px){
+    .park-view-head,
+.oceaan-villa-head,
+.forest-homes-head {
+        width:500px;
+    }
+}
+@media  (max-width:1284px){
+    .top-rated--sale {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:951px){
+    .blog {
+        flex-wrap: wrap;
+        gap:2rem;
+    }
+}
+@media (max-width:1002px){
+    .testimonial-body{
+        flex-wrap: wrap;
+        padding:5rem;
+    } 
+}

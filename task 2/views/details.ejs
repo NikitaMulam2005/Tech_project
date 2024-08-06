@@ -1,0 +1,35 @@
+<% if(rent != null ) { %>
+    <br>
+    <br>
+    <h1 style="text-align: center; color:#A57A5A"><%=rent.name%></h1>
+    <br>
+    <br>
+    <hr style="margin:0 auto; width:70rem;">
+    <br>
+    <section class="details">
+        <div class="details-left">
+            <img src="/Uploads/<%= rent.image %>" alt="park-view-img" class="details-img">
+            <button class="park-view-button">For <%= rent.type%></button>
+        </div>
+        <div class="details-right">
+            <div class="details-up">
+                <h2 class="st-2">Details</h2>
+                <ul class="list-unstyled">
+                    <li><img src="/img/bed-icon.png" alt=""><%= rent.bed %> Bed Rooms</li>
+                    <li><img src="/img/bath-icon.png" alt=""><%= rent.bath %> Bath Rooms</li>
+                    <li><img src="/img/scale-icon.png" alt=""><%=rent.feet %> sq. ft.</li>
+                    <li><img src="/img/home-icon.png" alt="">Type <%=rent.category %></li>
+                </ul>
+            </div>
+            <div class="details-down">
+                    <h2 class="mb-16">Description</h2>
+                    <p class="mb-0"><%= rent.description %></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <% } else { %>
+        <p>No item found.</p>
+      <% } %>
+      
+    <br>

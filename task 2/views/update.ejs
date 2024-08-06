@@ -1,0 +1,97 @@
+
+<div class="submit_text" id="Updateform">
+    <h1 class="submit_head" style="color:hsl(26, 30%, 50%)"><i>Update The Details Of Your Property</i></h1>
+    <br>
+    <div class="submit_subhead">
+      <p class="lead">let other people know that you want to put your property on Sale or Rent!!!</p>
+    </div>
+  </div>
+  
+  <div class="submit_doc">
+    <% if(infoUpdateObj != '') { %>
+      <div class="col-8 alert alert-success" role="alert">
+        <%= infoUpdateObj %>
+      </div>
+    <% } %>
+  
+    <% if(infoErrorObj != '') { %>
+      <div class="col-8 alert alert-danger" role="alert">
+        <%= infoErrorsObj %>
+      </div>
+    <% } %>
+
+    <div class="co">
+  
+      <form action="/update" enctype="multipart/form-data" method="PUT">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="rows">
+  
+          <div class="column">
+            <label for="name" class="label">Property Name</label>
+            <input type="text" name="name" id="name" class="control" required>
+          </div>
+          
+          <div class="column">
+            <label for="description" class="label">Description</label>
+            <textarea name="description" id="description" class="control" cols="30" rows="4"></textarea>
+          </div>
+  
+          <div class="column">
+            <label for="price" class="label">Property Price</label>
+            <input type="text" name="price" id="price" class="control" required>
+          </div>
+          
+          <div class="column">
+            <label for="type">Select Type</label>
+            <select class="form-select control" name="type" aria-label="type">
+              <option selected>Select Type</option>
+              <option value="Sale">Sale</option>
+              <option value="Rent">Rent</option>
+            </select>
+          </div>
+    
+
+          <div class="column">
+            <label for="category">Select Category</label>
+            <select class="form-select control" name="category" aria-label="Category">
+              <option selected>Select Category</option>
+              <option value="House">House</option>
+              <option value="Villa">Villa</option>
+              <option value="Bungalow">Bungalow</option>
+              <option value="Apartments">Apartments</option>
+              <option value="Townhome">Townhome</option>
+              <option value="Office">Office</option>
+              <option value="Loft">Loft</option>
+            </select>
+          </div>
+          
+          <div class="column">
+            <label for="bed" class="label">No.of BedRooms</label>
+            <input type="text" name="bed" id="bed" class="control" required>
+          </div>
+           
+          <div class="column">
+            <label for="bath" class="label">No.of BathRooms</label>
+            <input type="text" name="bath" id="bath" class="control" required>
+          </div>
+
+          <div class="column">
+            <label for="bath" class="label">property dimension</label>
+            <input type="text" name="feet" id="feet" class="control" required>
+          </div>
+
+          <div class="column">
+            <label for="image">Product Image</label>
+            <input type="file" class="control" name="image" accept="image/*">
+          </div>
+  
+          <div class="column">
+            <button type="submit" class="btn-submit">Update</button>
+          </div>
+  
+        </div>
+      
+      </form>
+  
+    </div>
+  </div>
